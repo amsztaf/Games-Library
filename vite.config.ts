@@ -170,11 +170,9 @@ export default defineConfig(({ command, isPreview }) => ({
 ...(command === "build" || isPreview
   ? [
       nitro({
-        preset: "vercel",
-        serverDir: "./server",
-        externals: {
-          inline: ["tslib"],
-        },
-      }),
-    ]
-  : []),
+  preset: "vercel",
+  serverDir: "./server",
+  // Nitro 3: wymuś dołączenie tslib do bundla / trace
+  noExternals: ["tslib"],
+  traceDeps: ["tslib"],
+}),
