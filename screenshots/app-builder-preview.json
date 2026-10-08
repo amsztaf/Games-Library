@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Półka",
+      "hasCanvas": false,
+      "bodyTextLen": 597,
+      "bodyTextHash": "876c00ae913046398d08872350849fac6e7912bb4f688f4a42296160592e16aa",
+      "bodyTextPrefix": "Półka BIBLIOTEKA GIER Losuj Dodaj 8 gier · 5 ulubionych · 3 z ko",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Półka",
+      "hasCanvas": false,
+      "bodyTextLen": 569,
+      "bodyTextHash": "dd2c0e9ad271cbc851b62e9621a0cdef8fc8ba14c742cd29e6c95e86e423ef9c",
+      "bodyTextPrefix": "Półka 8 gier · 5 ulubionych · 3 z koroną · średnia 9.1 Wszystkie",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
